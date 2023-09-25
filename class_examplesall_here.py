@@ -6,19 +6,26 @@
 # python_test()
 
 #example2
-def python_test(a,b):
-    print(a)
-    print(b)
-    sum=a+b
-    return sum
-output=python_test(3,b=5)
-print(output)
+# def python_test(a,b):
+#     print(a)
+#     print(b)
+#     sum=a+b
+#     return sum
+# output=python_test(3,b=5)
+# print(output)
 
 #docstring
 """
 tripe quotes are used for docstring , used to document python module, class, function, methd to undesrtand what it does 
 """
 
-
+#recursion example classwork
+def check(n):
+    if n<=0:
+        return
+    else:
+        print(n)
+        check(n-1)
+    check(6)
 
 

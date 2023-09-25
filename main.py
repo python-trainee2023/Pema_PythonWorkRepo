@@ -26,3 +26,13 @@ help("class")
 #         self.name =  name
 #         def introduce(self):
 #             return  f"Hi, i'm {self.name}, and my id is{self.student_id}."
+
+# file handling
+
+# emp_file = open("employee.txt", "r")
+# print(emp_file.read())
+
+# for emp in emp_file.readliness():
+#     print(emp)
+#
+#     emp_file.close()
