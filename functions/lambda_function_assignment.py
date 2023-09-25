@@ -10,7 +10,7 @@ def sum_even_numbers(start, stop):
 # odd no in range
 sum_odd_numbers = lambda start, stop: sum(num for num in range(start, stop + 1) if num % 2 != 0)
 
-#user input for the range
+#user input for the ranges a
 start = int(input("Enter the start value: "))
 stop = int(input("Enter the stop value: "))
 #even no display
