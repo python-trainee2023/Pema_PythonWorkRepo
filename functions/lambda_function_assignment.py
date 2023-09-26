@@ -20,3 +20,12 @@ print(f"Sum of even numbers from {start} to {stop}: {even_result}")
 #odd no
 odd_result = sum_odd_numbers(start, stop)
 print(f"Sum of odd numbers from {start} to {stop}: {odd_result}")
+
+
+#lambda function another aproach
+# st_num = int(input("Enter start of range:"))
+# end_num = int(input("Enter start of range:"))
+#
+# if st_num>end_num:
+#     print("")
+
