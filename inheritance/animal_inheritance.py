@@ -21,6 +21,10 @@ dog = Dog("daina")
 cat = Cat("sassie")
 cow = Cow("pinky")
 
-print(dog.make_sound())
-print(cat.make_sound())
-print(cow.make_sound())
+# print(dog.make_sound())
+# print(cat.make_sound())
+# print(cow.make_sound())
+
+print(super(Dog, dog).make_sound())
+print(super(Cat, cat).make_sound())
+print(super(Cow, cow).make_sound())
