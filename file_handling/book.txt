@@ -1,3 +1,0 @@
-Advance database, John, 1999
-Python Basic, Smith,2000
-QA Automation, George, 1998
